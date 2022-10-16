@@ -1,0 +1,29 @@
+.btn-design {
+  font-style: var(--font-family-primary);
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #e75e8d;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.styledBtn {
+  background-color: transparent;
+  border: 1px solid #e75e8d;
+  color: #e75e8d;
+}
+
+.btn-design:hover {
+  color: #e75e8d;
+  cursor: pointer;
+  background-color: #fff;
+}

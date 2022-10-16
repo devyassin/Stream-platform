@@ -1,0 +1,15 @@
+.footer-container {
+  padding: var(--padding-primary);
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-footer {
+  color: rgb(197, 191, 191);
+  text-decoration: none;
+}

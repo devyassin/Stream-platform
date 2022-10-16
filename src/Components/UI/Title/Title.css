@@ -1,0 +1,20 @@
+.popular-title {
+  font-size: 35px;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 30px;
+}
+
+.popular-title span {
+  text-decoration: underline;
+}
+
+.popular-title em {
+  font-style: var(--font-family-primary);
+  color: var(--color-primary);
+}
+
+@media only screen and (max-width: 987px) {
+  .popular-title {
+    font-size: 20px;
+  }
+}

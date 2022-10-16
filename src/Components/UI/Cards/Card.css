@@ -1,0 +1,44 @@
+.card-container {
+  padding: 30px 15px;
+  background-color: var(--color-dark);
+  border-radius: 23px;
+}
+
+/* .card-img-container {
+  width: 100%;
+} */
+
+.card-img {
+  border-radius: 23px;
+  margin-bottom: 20px;
+}
+
+.card-info--1,
+.card-info--2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-rating,
+.game-download {
+  font-size: 14px;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.fa-download {
+  color: var(--color-primary);
+}
+
+.game-name {
+  font-style: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: 15px;
+}
+
+.game-type{
+    color: #666;
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.hero-main {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: var(--padding-primary);
+  border-radius: var(--border-raduis-primary);
+  background: url(../../assets/images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  width: 58%;
+}
+
+.hero-small-title {
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-normal);
+  margin-bottom: var(--marging-primary);
+}
+
+.hero-big-title {
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--marging-primary);
+}
+
+.hero-big-title span {
+  font-style: normal;
+  color: var(--color-primary);
+}
